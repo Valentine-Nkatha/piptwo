@@ -28,7 +28,7 @@
 #image{
   background-color:black; 
   color: white;
-  height: 420px;width: 85%;
+  height: 500px;width: 85%;
   
 }
 #ten{
@@ -45,11 +45,17 @@
 #big{
     background-color: aqua;
     height: 380px;
-    width: 30%;
+    width: 23%;
+    float: right;
 }
 #left{
-    float: right;
+
+float: right;
 }
 #small{
 display: flex;
+}
+#topnav{
+    display: flex;
+    justify-content: space-around;
 }
