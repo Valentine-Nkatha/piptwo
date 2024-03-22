@@ -1,0 +1,22 @@
+#introduction{
+    background-color: fuchsia;
+    background-image: url(Images/NINE.jpeg);
+    background-size: cover;
+    color: rgb(240, 241, 245);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    height: 300px;
+}
+#buttons{
+    background-color: green;
+    color: #000;
+    border-radius: 50px;
+}
+#Box{
+    background-color: cornflowerblue;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    
+}
