@@ -1,61 +1,92 @@
-#Image{
-    background-color: brown;
-    height: 600px;width: 90%;
-    
+#Image {
+  background-color: brown;
+  height: 600px;
+  width: 90%;
 }
 /* #image{
     background-color: black;
     color: white; */
 
-#button{
-    border-radius: 30%;
-    background-color: white;
-    color: black;
+#button {
+  border-radius: 30%;
+  background-color: white;
+  color: black;
 }
-#buttons{
-    border-radius: 30%;
-    background-color: orangered;
-    color: white;
-}
-#Item{
-    font-size: xx-large;
-    
-}
-#Box{
-    display: flex;
-    float: right;
-}
-#image{
-  background-color:black; 
+#buttons {
+  border-radius: 30%;
+  background-color: orangered;
   color: white;
-  height: 500px;width: 85%;
-  
 }
-#ten{
-    display: flex;
-    justify-content: space-around;
+#Item {
+  font-size: xx-large;
 }
-#topnav a{
-    text-decoration: none;
-    color: white;
-    
-    
+#Box {
+  display: flex;
+  float: right;
+}
+#image {
+  background-color: black;
+  color: white;
+  height: 500px;
+  width: 85%;
+}
+#ten {
+  display: flex;
+  justify-content: space-around;
+}
+#topnav a {
+  text-decoration: none;
+  color: blue;
+}
+#big {
+  background-color: aqua;
+  height: 380px;
+  width: 23%;
+  float: right;
+}
+#left {
+  float: right;
+}
+#small {
+  display: flex;
+}
+#topnav {
+  display: flex;
+  justify-content: space-around;
+}
+#order {
+  color: black;
+}
+#Africa {
+  display: grid;
+}
+#africa {
+  display: grid;
+}
+#myInput {
 
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  height: 20px;
 }
-#big{
-    background-color: aqua;
-    height: 380px;
-    width: 23%;
-    float: right;
-}
-#left{
 
-float: right;
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-#small{
-display: flex;
+
+#myUL li a {
+  border: 1px solid;
+  margin-top: -1px;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
 }
-#topnav{
-    display: flex;
-    justify-content: space-around;
-}
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
